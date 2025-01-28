@@ -1,0 +1,12 @@
+{
+  "name": "mobile",
+  "packageManager": "yarn@4.5.3",
+  "devDependencies": {
+    "cypress": "13.16.1",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "bson": "^6.10.1",
+    "cypress-mongodb": "^6.2.1"
+  }
+}

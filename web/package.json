@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+    "bson": "^6.10.1",
+    "cypress": "^13.16.1",
+    "cypress-mongodb": "^6.2.1",
+    "dotenv": "^16.4.7"
+  }
+}
