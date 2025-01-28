@@ -1,6 +1,7 @@
 require('dotenv').config()
 const { configurePlugin } = require('cypress-mongodb')
 module.exports = {
+  projectId: "hpmnht",
   env: {
     mongodb: {
       uri: process.env.MONGO_URI,
