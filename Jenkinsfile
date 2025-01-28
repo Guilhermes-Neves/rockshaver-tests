@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Web'){
             steps {
-                dir('mobile') {
+                dir('web') {
                     sh 'npm install'
                     sh 'npx cypress install --force'
                     sh 'node runner.js'
