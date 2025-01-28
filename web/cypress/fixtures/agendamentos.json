@@ -5,7 +5,7 @@
     "dia": "09",
     "profissional": {
       "nome": "Tina",
-      "matricula": 1003
+      "matricula": "1003"
     },
     "servico": {
       "codigo": 3,
@@ -22,7 +22,7 @@
     "dia": "14",
     "profissional": {
       "nome": "Jimi",
-      "matricula": 1006
+      "matricula": "1006"
     },
     "servico": {
       "codigo": 1,
@@ -39,7 +39,7 @@
     "dia": "12",
     "profissional": {
       "nome": "Kurt",
-      "matricula": 1008
+      "matricula": "1008"
     },
     "servico": {
       "codigo": 1,

@@ -13,7 +13,7 @@ describe('Agendamento', () => {
         const agendamento = agendamentos.sucesso
 
         cy.deleteMany(
-            {emailCliente: agendamento.usuario.email},
+            {matricula: agendamento.profissional.matricula},
             {collection: 'agendamentos'}
         ).then(result => {
             cy.log(result)
@@ -41,7 +41,7 @@ describe('Agendamento', () => {
         const agendamento = agendamentos.duplicado
 
         cy.deleteMany(
-            {emailCliente: agendamento.usuario.email},
+            {matricula: agendamento.profissional.matricula},
             {collection: 'agendamentos'}
         ).then(result => {
             cy.log(result)
@@ -67,7 +67,7 @@ describe('Agendamento', () => {
         const agendamento = agendamentos.conflito
 
         cy.deleteMany(
-            {emailCliente: agendamento.usuario.email},
+            {matricula: agendamento.profissional.matricula},
             {collection: 'agendamentos'}
         ).then(result => {
             cy.log(result)
