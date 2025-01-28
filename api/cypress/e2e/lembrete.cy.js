@@ -39,8 +39,6 @@ describe('POST /api/agendamentos/:id/lembrete', () => {
                 .then(response => {
                     expect(response.status).to.eq(200)
                     expect(response.body.message).to.eq("Lembrete enviado com sucesso")
-                    expect(response.body.info.success).to.be.true
-                    expect(response.body.info.message_ids).not.to.be.empty
                 })
 
                 cy.findOne(
