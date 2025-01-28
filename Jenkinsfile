@@ -1,5 +1,7 @@
 pipeline {
-    agent { image 'cypress/browsers:latest'}
+    agent { 
+        docker { image 'cypress/browsers:latest' }
+    }
     stages {
         stage('Tests no Backend') {
             steps {
