@@ -8,9 +8,9 @@ Cypress.Commands.add('verificarToast', (mensagem) => {
 Cypress.Commands.add('criarAgendamentoApi', (profissional, agendamentos) => {
     agendamentos.forEach(a => {
         cy.deleteMany(
-            { emailCliente: a.usuario.email },
+            { matricula: profissional.matricula },
             { collection: 'agendamentos' }
-        ).then(result => {
+          ).then(result => {
             cy.log(result)
         })
     })

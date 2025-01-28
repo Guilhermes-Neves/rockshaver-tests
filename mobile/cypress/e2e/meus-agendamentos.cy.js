@@ -22,7 +22,7 @@ describe('Meus Agendamentos', () => {
         cy.wrap($li)
           .invoke('text')
           .should('contain', agendamento.usuario.nome)
-          .and('contains', resultado)
+          .and('contain', resultado)
       })
   })
 
