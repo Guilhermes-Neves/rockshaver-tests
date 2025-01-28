@@ -14,6 +14,7 @@ module.exports = {
     setupNodeEvents(on, config) {
       configurePlugin(on)
     },
-    baseUrl: process.env.WEB_URL
+    baseUrl: process.env.WEB_URL,
+    video: true
   },
 };

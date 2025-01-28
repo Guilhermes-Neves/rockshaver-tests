@@ -11,3 +11,6 @@ cypress/screenshots
 
 #!.yarn/cache
 .pnp.*
+cypress/videos
+cypress/downloads
+cypress/screenshots
